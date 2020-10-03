@@ -1,0 +1,138 @@
+---
+title: "Hoja de ejercicios con variables simples"
+output: html_notebook
+---
+
+Ejercicio 1. Declarar e imprimir 3 variables, una numerica, otra logica y una compleja. 
+```{r}
+##Escribir aquí la respuesta
+a <- 2
+b <- TRUE
+c <- 4i + 7
+
+```
+
+Ejercicio 2. Almacena en una variable el producto de las dos variables declaradas. Imprime el resultado. 
+```{r}
+a <- 33.22
+b <- 83.22
+
+##Escribir aquí la respuesta
+c <- a * b
+c
+
+```
+
+Ejercicio 3. Almacena en una variable la suma de las dos variables declaradas. Imprime el resultado. 
+```{r}
+a <- 68.78
+b <- TRUE
+##Escribir aquí la respuesta
+d <- a + b
+d
+
+```
+
+Ejercicio 4. Almacena en una variable la division de las dos variables declaradas (a/b). Imprime el resultado. 
+```{r}
+a <- 348
+b <- Inf
+##Escribir aquí la respuesta
+c <- a/b
+c
+
+```
+
+Ejercicio 5. Haz la raiz cuadrada de la variable declarada. Imprime el resultado.
+```{r}
+a <- 459684
+##Escribir aquí la respuesta
+c <- a**(1/2) #tambien se puede poner sqrt o ^
+c
+
+```
+
+Ejercicio 6. Si A es el numero de gente enferma en una poblacion y B es el numero de gente sana, calcula el porcentaje de gente enferma de la poblacion. Imprime el resultado.
+```{r}
+a <- 6*10^6
+b <- 2.23e+07
+##Escribir aquí la respuesta
+c <- a + b
+d <- a/c * 100
+d
+
+```
+
+Ejercicio 7. Almacena en una variable si las siguiente variables son iguales. Imprime el resultado. 
+```{r}
+a <- 1*10^4
+b <- 1e+4
+##Escribir aquí la respuesta
+c <- a == b
+c
+```
+
+Ejercicio 8. Almacena en una variable si las siguiente variables son diferentes. Imprime el resultado. 
+```{r}
+a <- 1
+b <- TRUE
+##Escribir aquí la respuesta
+c <- a != b
+c
+```
+
+Ejercicio 9. Suma los dos numeros complejos, despues almacena en una variable si la suma y la variable C son iguales. Imprime el resultado.
+```{r}
+a <- 22.3+1i
+b <- 67.7-1i
+c <- 90L
+##Escribir aquí la respuesta
+e <- a + b
+d <- e == c
+d
+```
+
+Ejercicio 10. Almacena el resultado de la division de las siguientes variables (a/b). Imprime el resultado.
+```{r}
+a <- 1
+b <- FALSE
+##Escribir aquí la respuesta
+c <- a / b
+c
+```
+
+Ejercicio 11. Imprime la union de las siguientes variables.
+```{r}
+a <- "Hello"
+b <- "World"
+c <- "!"
+##Escribir aquí la respuesta
+cat(a,b,c)
+
+```
+
+Ejercicio 12. Declara una variable de tipo caracter que, al ser imprimida por pantalla, muestre tres saltos de linea. Imprime dicha variable (con cat).
+```{r}
+##Escribir aquí la respuesta
+a <- "hola \n \n \n"
+cat(a)
+```
+
+Ejercicio 13. Declara una variable de tipo caracter que, al ser imprimida por pantalla, se asemeje a una tabla de dimensiones 4 Filas x 6 Columnas. Usa tabulaciones e imprime dicha variable (con cat).
+```{r}
+##Escribir aquí la respuesta
+cat("a", "\t" ,"a","\t","a","\t","a", "\n","a", "\t" ,"a","\t","a","\t","a", "\n","a", "\t" ,"a","\t","a","\t","a", "\n","a", "\t" ,"a","\t","a","\t","a", "\n")
+
+```
+
+Ejercicio 14. Primero, almacena en una variable si A y B son iguales. Despues usa el operador logico AND con C. Almacena el resultado en una variable e imprimela por pantalla.
+```{r}
+a <- "Hello"
+b <- "Hello"
+c <- 1
+##Escribir aquí la respuesta
+d <- a == b 
+e <- d & c
+e
+
+```

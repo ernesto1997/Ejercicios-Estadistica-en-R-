@@ -1,0 +1,100 @@
+---
+title: "Hoja de ejercicios con funciones integradas"
+output: html_notebook
+---
+
+Ejercicio 1. Crea un vector aleatorio de 10000 valores de tal forma que sus percentiles se aproximen a 0:0%, 50:25% 100:50%, 150:75% 200:100%
+```{r}
+##Escribir aqu?? la respuesta
+
+
+```
+
+Ejercicio 2. Resuelve esta ecuaci?n. (Usar matrices)
+x + y - z = 4
+2x- y + z = 5
+-x+ y + 3z = 3
+```{r}
+
+```
+
+Ejercicio 3. Crea un vector con 10000 cadenas de caracteres. Todos los valores del vector deben tener 8 caracteres de longitud y haber sido generados aleatoriamente a partir de letras entre a y z.
+```{r}
+
+```
+
+Ejercicio 4. Carga el conjunto de datos iris. A?ade una nueva columna que represente la suma del resto de atributos num?ricos. Guarda el fichero en formato csv.
+```{r}
+
+```
+
+Ejercicio 5. Carga el conjunto de datos iris. Divide el conjunto de datos en dos partes conteniendo el 50% de las filas. La proporci?n de Species debe ser la misma que la del conjunto original. Despu?s desordena las filas y guarda ambos ficheros en formato csv.
+```{r}
+
+```
+
+Ejercicio 6. Crea un vector de 10000 numeros aleatorios entre 77 y 2143, normaliza los datos entre -1 y 1
+```{r}
+
+```
+
+
+Ejercicio 7. Dado el vector A, crea un vector de numeros aleatorios de la misma longitud de A. Calcula la suma de A y el nuevo vector y despues normaliza los datos entre 0 y 1.
+```{r}
+a <- rep(1:10,floor(runif(1)*100+100))
+```
+
+Ejercicio 8. Dado el vector A, elige los valores mayores que 5 y reemplazalos por un n?mero aleatorio entero entre -1 y -5.
+```{r}
+a <- rep(1:10,floor(runif(1)*100+100))
+```
+
+Ejercicio 9. Carga el conjunto de datos iris. A?ade tres nuevas filas con Species diferentes. Reordena el conjunto de datos aleatoriamente.
+```{r}
+
+```
+
+Ejercicio 10. Crea un nuevo dataframe que siga las siguientes reglas:
+-Dos columnas x e y generadas aleatoriamente que sigan una distribucion uniforme y normal respectivamente. Ambas x e y deben comprenderse entre -10 y 10.
+-Una columna que represente x+y.
+-Una columna que cuando x sea mayor que y, calcule el cuadrado de y; y cuando y sea mayor o igual que x, que calcule x-y.
+-Una columna que sea igual a x+y, pero su orden ha sido invertido.
+-Una columna igual a la media de los valores de cada otra columna
+-Una columna igual a la desviacion estandar de los valores de cada otra columna (excepto la media)
+```{r}
+
+```
+
+Ejercicio 11. Dada la matriz tridimensional A, calcula la desviacion estandar de cada sub-matriz bidimensional en las dimensiones x (10) e y (20)
+```{r}
+a <- array(runif(6000,0,100),
+             dim=c(10,20,30))
+
+
+```
+
+Ejercicio 12. Carga el conjunto iris. En Species, reemplaza todos los caracteres "i" por una "x" y todos los caracteres "s" por una "y".
+```{r}
+
+```
+
+Ejercicio 13. Carga el conjunto mtcars. Elige toda fila cuyo modelos de coche sea Mercedes ("Merc"). Halla la media de la columna wt de dichos valores.
+```{r}
+
+```
+
+Ejercicio 14. Carga el conjunto mtcars. Crea una nueva columna donde solo se incluya el nombre del modelo del coche (Todo lo que hay antes del espacio)
+```{r}
+
+```
+
+Ejercicio 15. Carga el conjunto mtcars. Calcula la media de mpg, disp y hp, de todos aquellos modelos de coche que empiecen por la letra M.
+```{r}
+
+```
+
+Ejercicio 15. Crea un programa que lea la fecha de nacimiento de una persona introducida por teclado. Imprime la fecha de nacimiento en formato YYYY-MM-DD.
+```{r}
+
+```
+
